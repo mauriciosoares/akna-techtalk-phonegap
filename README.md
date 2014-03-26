@@ -10,20 +10,22 @@ First of all, you need `node` and `npm` to run the cli commands, so go ahead and
 
 Then you can install phonegap globally running:
 
-```npm install -g phonegap```
+    npm install -g phonegap
 
-You will also need IOS Simulator, so rum 
+You will also need IOS Simulator, so rum
 
-```npm install -g ios-sim```
+    npm install -g ios-sim
 
 After installing these, you can run:
 
-```phonegap create my-app```
+    phonegap create my-app
 
 This will kick off your project, creating the structure for your app, you can enter in the `www` folder, and inside there you can start writting your code!
 
 After your code is done, you can run:
 
-```phonegap run ios```
+    phonegap run ios
+
+
 
 That'll create a folder `platforms/ios`, and inside there is your xcode project.
