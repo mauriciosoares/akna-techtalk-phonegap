@@ -1,0 +1,24 @@
+{
+  "name": "akna-techtalk-phonegap",
+  "version": "0.0.1",
+  "description": "A techtalk about Phonegap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/msodeveloper/akna-techtalk-phonegap.git"
+  },
+  "keywords": [
+    "techtalk",
+    "phonegap",
+    "akna"
+  ],
+  "author": "Mauricio Soares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msodeveloper/akna-techtalk-phonegap/issues"
+  },
+  "homepage": "https://github.com/msodeveloper/akna-techtalk-phonegap"
+}

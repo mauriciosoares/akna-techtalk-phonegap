@@ -1,0 +1,34 @@
+{
+  "name": "akna-techtalk-phonegap",
+  "version": "0.0.1",
+  "homepage": "https://github.com/msodeveloper/akna-techtalk-phonegap",
+  "authors": [
+    "Mauricio Soares <m.soares2603@gmail.com>"
+  ],
+  "description": "A techtalk about Phonegap",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "phonegap",
+    "techtalk",
+    "akna"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.15",
+    "angular-animate": "~1.2.15",
+    "angular-route": "~1.2.15",
+    "angular-touch": "~1.2.15",
+    "normalize-css": "~3.0.0"
+  }
+}
