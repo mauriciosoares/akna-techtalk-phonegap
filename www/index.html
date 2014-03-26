@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="aknaTechtalk">
 <head>
   <meta charset="UTF-8">
   <title>Techtalk Phonegap</title>
 
   <link rel="stylesheet" href="js/libs/normalize-css/normalize.css">
 </head>
-<body>
-
+<body ng-controller="MainCtrl as main">
+  <div ng-view ng-class="main.slide"></div>
 
   <!-- libs and plugins -->
   <script src="js/libs/angular/angular.js"></script>
@@ -16,5 +16,10 @@
   <script src="js/libs/angular-touch/angular-touch.js"></script>
 
   <!-- my files -->
+  <script src="js/app.js"></script>
+  <script src="js/services/navigation.js"></script>
+  <script src="js/controllers/mainCtrl.js"></script>
+  <script src="js/controllers/homeCtrl.js"></script>
+  <script src="js/controllers/myPage.js"></script>
 </body>
 </html>
