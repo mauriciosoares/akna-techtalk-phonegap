@@ -1,4 +1,6 @@
 (function() {
+  'use strict';
+
   var MainCtrl = function(navigation) {
     this.slide = navigation.slide;
   }
