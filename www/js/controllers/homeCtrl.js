@@ -1,12 +1,11 @@
 (function() {
   'use strict';
 
-  var HomeCtrl = function($scope, navigation) {
-    navigation.slide = 'yeah';
-    $scope.navigation = navigation;
+  var HomeCtrl = function($scope) {
+
   }
 
-  HomeCtrl.$inject = ['$scope', 'navigation'];
+  HomeCtrl.$inject = ['$scope'];
 
   app.controller('HomeCtrl', HomeCtrl);
 } ());

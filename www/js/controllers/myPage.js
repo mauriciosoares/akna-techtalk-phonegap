@@ -1,11 +1,11 @@
 (function() {
   'use strict';
 
-  var MyPageCtrl = function($scope, navigation) {
-    console.log(navigation);
+  var MyPageCtrl = function($scope) {
+
   }
 
-  MyPageCtrl.$inject = ['$scope', 'navigation'];
+  MyPageCtrl.$inject = ['$scope'];
 
   app.controller('MyPageCtrl', MyPageCtrl);
 } ());
