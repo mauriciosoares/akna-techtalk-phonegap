@@ -34,6 +34,12 @@ You can now enter in the ios folder and run the xcode file, in there you can end
 
 You can use use simulator running `phonegap run ios`, but for some reason its quite slow... I prefer to build and then run it on xcode.
 
+To change the icons and splash screens just go into `platforms/ios/<name-app>/resources/`, inside that there is a bunch of directories, with a lot of images, just change those, respecting their respective proportions.
+
+Also if you don't want to keep running `phonegap build ios` all the time when you want to debug on xcode, you can rung into `platforms/ios/www`, there will be the files of your project, and you can change those directly inside that, so its up to you!
+
+
+
 ---
 
 ##Some tibs for Mobile Development with HTML + CSS
