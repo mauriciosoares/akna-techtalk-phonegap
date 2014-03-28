@@ -38,14 +38,12 @@ To change the icons and splash screens just go into `platforms/ios/<name-app>/re
 
 Also if you don't want to keep running `phonegap build ios` all the time when you want to debug on xcode, you can rung into `platforms/ios/www`, there will be the files of your project, and you can change those directly inside that, so its up to you!
 
----
 
 ##Debug on a real device
 To debug your app on a real Iphone, you need to have a valid development account on [https://developer.apple.com/](https://developer.apple.com/), and create a **Provisioning Profile**, download the file, and in the xcode find the **Organizer** (Window -> Organizer), and add this file inside that.
 
 After that, you can choose your own device as the debug platform instead of the ios simulator.
 
----
 
 ##Some tibs for Mobile Development with HTML + CSS
 
