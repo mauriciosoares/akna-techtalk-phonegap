@@ -30,6 +30,10 @@ After your code is done, you can run:
 
 That'll create a folder `platforms/ios`, and inside there is your xcode project.
 
+You can now enter in the ios folder and run the xcode file, in there you can end configuring your app (with ID and some stuff that apple requires), and also run the simulator!
+
+You can use use simulator running `phonegap run ios`, but for some reason its quite slow... I prefer to build and then run it on xcode.
+
 ---
 
 ##Some tibs for Mobile Development with HTML + CSS
