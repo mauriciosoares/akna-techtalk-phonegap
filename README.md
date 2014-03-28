@@ -45,7 +45,7 @@ To debug your app on a real Iphone, you need to have a valid development account
 After that, you can choose your own device as the debug platform instead of the ios simulator.
 
 
-##Some tibs for Mobile Development with HTML + CSS
+##Some tibs for Mobile Development with HTML + CSS + JS
 
 Use `transition: translateX, translateY or translateZ` for creating the page transitions instead of `left` or `top`, it activates the hardware acceleration of the devices, and makes the transition way smoother when you have multiple elements in the DOM.
 
