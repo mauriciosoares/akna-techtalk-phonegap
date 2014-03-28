@@ -38,7 +38,8 @@ You can use use simulator running `phonegap run ios`, but for some reason its qu
 
 ##Some tibs for Mobile Development with HTML + CSS
 
-Use `transition: translate` for creating the page transitions instead of `left` or `top`, it activates the hardware acceleration of the devices, and makes the transition way smoother when you have multiple elements in the DOM.
+Use `transition: translateX, translateY or translateZ` for creating the page transitions instead of `left` or `top`, it activates the hardware acceleration of the devices, and makes the transition way smoother when you have multiple elements in the DOM.
+
 
 Make use of the `#` routes of the browser, you can always use `window.history.back` for making things easier.
 
