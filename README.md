@@ -24,8 +24,22 @@ This will kick off your project, creating the structure for your app, you can en
 
 After your code is done, you can run:
 
-    phonegap run ios
+    phonegap build ios
 
 
 
 That'll create a folder `platforms/ios`, and inside there is your xcode project.
+
+---
+
+##Some tibs for Mobile Development with HTML + CSS
+
+Use `transition: translate` for creating the page transitions instead of `left` or `top`, it activates the hardware acceleration of the devices, and makes the transition way smoother when you have multiple elements in the DOM.
+
+Make use of the `#` routes of the browser, you can always use `window.history.back` for making things easier.
+
+For AngularJS use `ngTouch`, it helps with events such as click (so it become tap, belive me, it has a HUGE difference), or slides...
+
+Also use `ngAnimate` for creating the transitions...
+
+And of course `ngRoute` for the routing stuff :D
